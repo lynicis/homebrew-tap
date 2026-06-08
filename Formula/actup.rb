@@ -2,8 +2,8 @@ class Actup < Formula
   desc "Upgrade GitHub Actions versions interactively from your terminal"
   homepage "https://github.com/lynicis/actup"
   url "https://github.com/lynicis/actup.git",
-      tag:      "v0.1.6",
-      revision: "f291da767bd5586db4ac1a8b4c14574a8258e530"
+      tag:      "v0.2.0",
+      revision: "49048d69c63c6bc4b3cdb25407851685da677252"
   license "MIT"
   head "https://github.com/lynicis/actup.git", branch: "main"
 
