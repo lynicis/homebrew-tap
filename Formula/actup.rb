@@ -3,7 +3,7 @@ class Actup < Formula
   homepage "https://github.com/lynicis/actup"
   url "https://github.com/lynicis/actup.git",
       tag:      "v0.3.0",
-      revision: "d9b22da6581f2cc53f0d4b9866e3f9282b754aae"
+      revision: "df68bd1bb6b539112cc4807f763119cfbddbdd35"
   license "MIT"
   head "https://github.com/lynicis/actup.git", branch: "main"
 
