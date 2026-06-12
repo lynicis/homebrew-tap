@@ -2,7 +2,7 @@ class MullvadRotator < Formula
   desc "Rotate Mullvad VPN relays and WireGuard keys"
   homepage "https://github.com/lynicis/mullvad-rotator"
   url "https://github.com/lynicis/mullvad-rotator/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "6a9b6f64bbf923ab0c156a1f09f556bdad65eaefa5359bcccb85bd92d8b6a564"
   license "MIT"
 
   depends_on "mullvad" => :run
