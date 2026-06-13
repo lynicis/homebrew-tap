@@ -2,7 +2,7 @@ class Sfdel < Formula
   desc "Delete Safari browsing history on macOS"
   homepage "https://github.com/lynicis/sfdel"
   url "https://github.com/lynicis/sfdel/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "a9e071cb96bcb4943edf76b909c4a2b46fa32bad2dc7043e159d9ef85ecf4c5c"
+  sha256 "7b72e6434b125246bbacb5d674037e783a744b700d788bdc84b4be50be241339"
   license "MIT"
 
   def install
