@@ -5,10 +5,15 @@ class MullvadRotator < Formula
   sha256 "054a438a9b37567a44517df041c9531cf1335119830774e78a08532e9c6d98fc"
   license "MIT"
 
-  depends_on "mullvad-vpn" => :run
-
   def install
     bin.install "mullvad-rotator.sh" => "mullvad-rotator"
+  end
+
+  def caveats
+    <<~EOS
+      mullvad-rotator requires the Mullvad VPN client (cask mullvad-vpn).
+      Install it first: brew install --cask mullvad-vpn
+    EOS
   end
 
   test do
