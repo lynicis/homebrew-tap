@@ -1,8 +1,8 @@
 class MullvadRotator < Formula
   desc "Rotate Mullvad VPN relays and WireGuard keys"
   homepage "https://github.com/lynicis/mullvad-rotator"
-  url "https://github.com/lynicis/mullvad-rotator/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "72e6202b3868aa2ce4dc117fe3ee6259090c9df5d0bf0349c15b5a378b735ab7"
+  url "https://github.com/lynicis/mullvad-rotator/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "ce76bfe94876f4f57ddaf78eaf782d63627f54c5b21f44aff08bd0c05571736d"
   license "MIT"
 
   def install
