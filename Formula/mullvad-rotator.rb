@@ -1,8 +1,8 @@
 class MullvadRotator < Formula
   desc "Rotate Mullvad VPN relays and WireGuard keys"
   homepage "https://github.com/lynicis/mullvad-rotator"
-  url "https://github.com/lynicis/mullvad-rotator/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "054a438a9b37567a44517df041c9531cf1335119830774e78a08532e9c6d98fc"
+  url "https://github.com/lynicis/mullvad-rotator/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "72e6202b3868aa2ce4dc117fe3ee6259090c9df5d0bf0349c15b5a378b735ab7"
   license "MIT"
 
   def install
@@ -19,4 +19,3 @@ class MullvadRotator < Formula
   test do
     assert_match version.to_s, shell_output("#{bin}/mullvad-rotator --version 2>&1")
   end
-end
