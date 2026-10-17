@@ -1,5 +1,5 @@
 class Inzibat < Formula
-  desc "A lightweight HTTP mock server for microservices testing and development"
+  desc "Lightweight HTTP mock server for microservices testing and development"
   homepage "https://github.com/lynicis/inzibat"
   url "https://github.com/lynicis/inzibat.git",
       tag:      "v0.3.6",
