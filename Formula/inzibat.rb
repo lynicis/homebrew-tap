@@ -1,9 +1,9 @@
 class Inzibat < Formula
-  desc "Lightweight HTTP mock server for microservices testing and development"
+  desc "A lightweight HTTP mock server for microservices testing and development"
   homepage "https://github.com/lynicis/inzibat"
   url "https://github.com/lynicis/inzibat.git",
-      tag:      "v0.3.6",
-      revision: "9432794b9d9613c154bf3c6c00bea02dfcd3fd91"
+      tag:      "v0.5.0",
+      revision: "1e1ce6a043a4e63218e63bb481f819270c05c94f"
   license "MIT"
 
   depends_on "go" => :build
